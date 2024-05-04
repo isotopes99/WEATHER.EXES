@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>weather forecast</title>
+
+  
+</head>
+<body>
+  <div class="background">
+
+    <nav>
+      
+      <div class="top_content">
+        <h1>WEATHER.
+          EXES</EXES>
+        </WEATHER></h1>
+      </div>
+      
+      <div>
+        <ul>
+          
+        </ul>
+        <form id="searchForm">
+          <input id="cityInput" type="search" placeholder="Search" aria-label="Search">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <main>
+      
+      <div class="heading">
+        
+        <h1 id="cityName">Weather for Delhi</h1>
+      </div>
+      <div class="card">
+        
+        <div>
+        <div>
+        
+          <div>
+            <h4>Temperatures</h4>
+          </div>
+          <div>
+            <ul>
+              <span id="temp" class="larger-text"></span> &#8451;
+              <li>Feels_like: <span id="feels_like"></span></li>
+              <li>Humidity: <span id="humidity"></span></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h4>Cloud_pct</h4>
+          </div>
+          <div>
+            <ul>
+              <span id="cloud_pct" class="larger-text"></span> %
+              <li>Wind_degrees: <span id="wind_degrees"></span></li>
+              <li>Wind_speed: <span id="wind_speed"></span></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h4>EXTRA INFO</h4>
+          </div>
+          <div>
+            <ul>
+              <li>Max_temp:<span id="max_temp"></span></li>
+              <li>Sunrise:<span id="sunrise"></span></li>
+              <li>Sunset:<span id="sunset"></span></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

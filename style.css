@@ -1,0 +1,107 @@
+.top_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 50px;
+  margin: 0px auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(6, 163, 64);
+  text-align: center;
+  border-radius: 50px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(6, 163, 64);
+  position: relative;
+  padding: 0.5px;
+  border-bottom: 0.1px solid #ccc;
+  opacity: 75%;
+  background-color: black;
+  width: 500px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto 0;
+}
+.card {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  justify-content: right;
+  opacity: 75%;
+  color: azure;
+  background-color: black;
+  width: 500px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 30px auto 0;
+}
+
+body {
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/1903702/pexels-photo-1903702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+#searchForm {
+  position: relative;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+#cityInput {
+  position: relative;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+#cityInput:focus {
+  position: relative;
+  border-color: #000000;
+}
+
+#searchForm button {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#searchForm button:hover {
+  position: relative;
+  background-color: #000000;
+}
+@font-face {
+  font-family: "WeatherExes";
+  src: url("path/to/weather-exes-font.woff2") format("woff2"),
+    url("path/to/weather-exes-font.woff") format("woff");
+}
+.top_content h1,
+.heading h1,
+#cityName {
+  font-family: "WeatherExes", sans-serif;
+}
